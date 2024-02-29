@@ -1,6 +1,6 @@
 // TODO: Definir esquemas de Mongoose para  y tareas
 
-const mongoose = require('mongoose');
+const mongoose= require('mongoose');
 
 const tareaSchema = new mongoose.Schema({
   title: {

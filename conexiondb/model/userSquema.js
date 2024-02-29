@@ -1,6 +1,6 @@
 
 // TODO: Definir esquemas de Mongoose para usuarios 
-const mongoose = require('mongoose');
+const mongoose= require('mongoose');
 
 const userSchema = new mongoose.Schema({
   username: {
@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
   password: {
-    type: Number,
+    type: String,
     required: true,
   },
 });
